@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Temp"
+        android:icon="@drawable/temperatura"
+        android:title="Temperatura" />
+
+    <item
+        android:id="@+id/navigation_Volumen"
+        android:icon="@drawable/volumen"
+        android:title="Volumen" />
+
+    <item
+        android:id="@+id/navigation_Peso"
+        android:icon="@drawable/peso"
+        android:title="Peso" />
+
+    <item
+        android:id="@+id/navegation_longitud"
+        android:icon="@drawable/flexible"
+        android:title="Longitud"
+        />
+
+</menu>

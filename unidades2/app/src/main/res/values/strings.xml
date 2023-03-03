@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">unidades</string>
+    <string name="title_Temp">Temperatura</string>
+    <string name="title_Volumen">Volumen</string>
+    <string name="title_longitud">Longitud</string>
+    <string name="title_Peso">Peso</string>
+</resources>

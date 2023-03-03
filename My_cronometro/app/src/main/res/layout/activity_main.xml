@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="104dp"
+        android:layout_height="132dp"
+        app:srcCompat="@drawable/cronometro" />
+
+    <TextView
+        android:id="@+id/crono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="00:00:000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/iniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/detener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="detener"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/reiniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reiniciar"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/Bandera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="bandera"
+            android:text="Bandera"
+            app:cornerRadius="100dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+</LinearLayout>
