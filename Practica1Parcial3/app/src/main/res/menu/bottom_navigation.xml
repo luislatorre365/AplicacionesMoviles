@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/first_fragment"
+        android:icon="@drawable/baseline_house_24"
+        android:title="House" />
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/baseline_ondemand_video_24"
+        android:title="Video" />
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/marketplace"
+        android:title="Marketplace" />
+
+    <item
+        android:id="@+id/FourFragment"
+        android:icon="@drawable/baseline_notifications_none_24"
+        android:title="notificacion" />
+
+    <item
+        android:id="@+id/fiveFragment"
+        android:icon="@drawable/baseline_notes_24"
+        android:title="Opciones" />
+
+
+</menu>
